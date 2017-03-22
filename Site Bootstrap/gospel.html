@@ -1,0 +1,558 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Sky Tunes</title>
+	
+	<link rel="stylesheet" href="midia/css/bootstrap.css">
+	<link rel="stylesheet" href="midia/css/style.css">
+    <link href="midia/Hover-master/css/hover.css" rel="stylesheet" media="all">
+
+	<!-- JavaScript e Jquery -->
+	<script type="text/javascript" src="Midia/js/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="Midia/js/scrollSuave.js"></script>
+
+	<script type="text/javascript" src="Midia/js/validamsg.js"></script>
+	<script type="text/javascript" src="Midia/js/validarLogin.js"></script>
+
+</head>
+<body>
+	<header class="navbar navbar-default navbar-fixed-top" id="fix" >
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle colapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div> <!-- navbar-header -->
+         <nav id="bs-navbar" class="collapse navbar-collapse">
+           <ul class="nav navbar-nav">
+	         	
+	         	<div id="logo">	
+	         		<!--<img src="http://placehold.it/180x50/999999/cccccc" alt="Slider">-->
+	         		<a href="index.html"><img src="midia/img/logo.png" alt="logo" title="Logo" class="img-responsive"></a>
+	             </div>
+            </ul> 
+            <form class="main-search">
+            	<input class="main-search-input" placeholder="Quer ouvir qual musica?" autocomplete="off">
+            	<button title="buscar" class="main-search-submit">
+            		<span class="glyphicon glyphicon-zoom-out"></span>
+            	</button>
+            </form>
+
+             <ul class="nav navbar-nav pull-right hidden-xs">
+                <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-sm"><span class="glyphicon glyphicon glyphicon-user"></span></a></li>
+                <li><a href="#" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"><span class="glyphicon glyphicon-envelope"></span></a></li>
+            </ul>
+            
+        </nav> <!--collapse navbar-collapse-->
+       </div> <!--class="container"-->
+     </header><!-- /header -->
+
+	<a name="inicio"> </a>
+	<br><br><br><br><br>
+	
+	<a href="#" id="voltar-inicio" ></a>
+		<!-- Menu -->
+		<div class="container">
+			<nav class="menu-secundario" id="active">
+			    <ul>
+			    	<li><a href="index.html"  class="hvr-fade">Todos</a></li>
+			        <li><a href="#" class="ativar">Gospel</a></li>
+			    	<li><a href="pop.html"  class="hvr-fade">Pop</a></li>
+			     	<li><a href="rock.html"  class="hvr-fade">Rock</a></li>
+			     	<li><a href="certanejo.html"  class="hvr-fade">Sertanejo</a></li>
+			    </ul>
+			</nav>
+		</div>	
+	<!-- Destaques -->
+	<div class="width-top-box">
+	  <div class="container">
+	   
+		   <div class="row">
+			 <div class="col-md-8 slider-noticia">
+				 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+					  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					  <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+					  <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+					  <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+					  
+					  <div class="item active">
+						  <!-- <img src="http://placehold.it/760x440/999999/cccccc" alt="Slider">-->
+							<img src="midia/img/carousel-1.png" class="img-responsive" alt="">
+						 <div class="carousel-caption">
+							  <h4></h4>
+						  </div>
+					   </div>
+
+						<div class="item">
+						  <!--<img src="http://placehold.it/760x440/999999/cccccc" alt="Slider">-->
+							 <img src="midia/img/carousel-2.png" class="img-responsive" alt="">
+						 <div class="carousel-caption">
+							 <h4></h4>
+						  </div>
+						</div>
+
+						<div class="item">
+						  <!--<img src="http://placehold.it/760x440/999999/cccccc" alt="Slider">-->
+							 <img src="midia/img/carousel-3.png" class="img-responsive" alt="">
+						 <div class="carousel-caption">
+							 <h4></h4>
+						  </div>
+						</div>
+
+						<div class="item">
+						  <!--<img src="http://placehold.it/760x440/999999/cccccc" alt="Slider">-->
+							 <img src="midia/img/carousel-4.png" class="img-responsive" alt="">
+						 <div class="carousel-caption">
+							 <h4></h4>
+						  </div>
+						</div>
+
+						<div class="item">
+						  <!--<img src="http://placehold.it/760x440/999999/cccccc" alt="Slider">-->
+							 <img src="midia/img/carousel-5.png" class="img-responsive" alt="">
+						 <div class="carousel-caption">
+							 <h4></h4>
+						  </div>
+						</div>
+
+						<div class="item">
+						  <!--<img src="http://placehold.it/760x440/999999/cccccc" alt="Slider">-->
+							 <img src="midia/img/carousel-6.png" class="img-responsive" alt="">
+						 <div class="carousel-caption">
+							 <h4></h4>
+						  </div>
+						</div>
+
+
+
+
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					  <span class="sr-only">Next</span>
+					</a>
+				  </div>
+				</div> <!-- Slider-noticia -->
+				</div><!--ROW CARROSSEL -->
+			  <div class="row">
+			  
+			  <div class="col-md-4">
+			
+			  <!--Itens Destaques -->
+			 
+				  <!-- Nav tabs -->
+				  <ul class="nav nav-tabs item-destaque-nav" role="tablist">
+					<li role="presentation" class="active"><a href="#maisVistos" aria-controls="maisVistos" role="tab" data-toggle="tab"><h4>Mais Vistos<h4></a></li>
+					<li role="presentation"><a href="#maisComentados" aria-controls="maisComentados" role="tab" data-toggle="tab"><h4>Mais comentados<h4></a></li>
+				  </ul>
+
+				  <!-- Tab panes -->
+				  <div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="maisVistos">
+					  
+					  <ul class="list-group list-margin">
+						<li class="list-group-item ">
+						  <span class="badge">1</span>
+						  <a href="#albuns" class="scroll">Projota</a>
+						</li>
+						<li class="list-group-item ">
+						  <span class="badge">2</span>
+						  <a href="#playlist" class="scroll">50 Cent</a>
+						</li>
+						<li class="list-group-item ">
+						  <span class="badge">3</span>
+						  <a href="#albuns" class="scroll">Raridade</a>
+						</li>
+					  </ul>  
+					 
+					</div>
+					<div role="tabpanel" class="tab-pane" id="maisComentados">
+					   
+					 <ul class="list-group list-margin">
+						<li class="list-group-item ">
+						  <span class="badge">45</span>
+						  <a href="#artistas" class="scroll">Padre Marcelo Rossi</a>
+						</li>
+						<li class="list-group-item ">
+						  <span class="badge">35</span>
+						  <a href="#playlist" class="scroll">Legião Urbana</a>
+						</li>
+						<li class="list-group-item ">
+						  <span class="badge">25</span>
+						  <a href="#artistas" class="scroll">Byonce</a>
+						</li>
+					  </ul>  
+
+					</div>
+
+				</div>
+				
+			  </div> <!-- Itens-destaques -->
+			</div> <!-- Row -->
+		 </div> <!-- noticias -->
+	  </div><!-- Container -->
+  </div><!-- Width box top -->	
+
+	 <!-- PlayList Recomendada -->
+	<div class="width-meio-box">
+	  <div class="container">
+	    
+	    <div class="row" id="playlist">
+	   
+	   <div class="title-box">
+	  	 <h1>PlayList Recomendada</h1>
+	   </div>
+	    <div class="col-md-2 playlist">
+	      
+	           <a href="playlist.html" class="hvr-grow-shadow">
+	              	<img src="midia/img/voz-de-muitas-aguas.jpg" class="img-responsive rad" alt="Foto" title="voz de muitas aguas" >
+	             	<!--   <img src="http://placehold.it/345x320/999999/cccccc" class="img-responsive rad" alt="Foto" title="" >-->
+	           </a>
+	             <h1>Como prometeste</h1>
+	            <span>Voz de muitas águas</span>
+
+	        </div>
+
+	        <div class="col-md-2 playlist">
+	      
+	           <a href="playlist.html" class="hvr-grow-shadow">
+	              <img src="midia/img/legiao-urbana.jpg" class="img-responsive rad" alt="Foto" title="legião Urbana" >
+	           </a>
+	             <h1>Que país é esse</h1>
+	            <span>Legião Urbana</span>
+	        </div>
+
+	        <div class="col-md-2 playlist">
+	      
+	           <a href="playlist.html" class="hvr-grow-shadow">
+	              <img src="midia/img/spriofm_happy.jpg" class="img-responsive rad" alt="Foto" title="" >
+	           </a>
+	             <h1>Happy</h1>
+	            <span>Pharrel Williams</span>
+	        </div>
+
+	        <div class="col-md-2 playlist">
+	      
+	           <a href="playlist.html" class="hvr-grow-shadow">
+	              <img src="midia/img/50cent.jpg" class="img-responsive rad" alt="Foto" title="" >
+	           </a>
+	             <h1>Candy Shop</h1>
+	            <span>50 Cent</span>
+	        </div>
+	      </div><!--ROW play list recomendados -->
+	   </div><!-- Container -->
+	</div> <!-- "width-meio-box-->
+<hr class="line">
+
+ <!-- Álbuns Recomendados -->
+	<div class="width-meio-box">
+	  <div class="container" >
+	    
+	    <div class="row" id="albuns">
+	   
+	   <div class="title-box">
+	  	 <h1>Álbuns Recomendados</h1>
+	   </div>
+	    <div class="col-md-2 playlist">
+	      
+	           <a href="album.html" class="hvr-curl-top-left">
+	              <img src="midia/img/raridade.jpg" class="img-responsive rad" alt="Foto" title="" >
+	           </a>
+	             <h1>Raridade</h1>
+	            <span>Anderson Freire</span>
+	        </div>
+
+	        <div class="col-md-2 playlist">
+	      
+	           <a href="album.html" class="hvr-curl-top-right">
+	              <img src="midia/img/na-praia.jpg" class="img-responsive rad" alt="Foto" title="" >
+	           </a>
+	             <h1>Na Praia</h1>
+	            <span>Matheus e Kauan</span>
+	        </div>
+
+	        <div class="col-md-2 playlist">
+	      
+	           <a href="album.html" class="hvr-curl-bottom-left">
+	              <img src="midia/img/pro-jota.jpg" class="img-responsive rad" alt="Foto" title="" >
+	           </a>
+	             <h1>Foco, Força e Fé</h1>
+	            <span>Projota</span>
+	        </div>
+
+	        <div class="col-md-2 playlist">
+	      
+	           <a href="album.html" class="hvr-curl-bottom-right">
+	              <img src="midia/img/maria-medonca.jpg" class="img-responsive rad" alt="Foto" title="" >
+	           </a>
+	             <h1>Novas Historias</h1>
+	            <span>Henrique e Juliano</span>
+	        </div>
+	      </div><!--ROW play list recomendados -->
+	   </div><!-- Container -->
+	</div> <!-- "width-meio-box-->	
+<hr class="line">
+
+ <!-- Artistas Recomendados -->
+	<div class="width-meio-box" id="artistas">
+	  <div class="container">
+	    
+	    <div class="row" >
+	   
+	   <div class="title-box">
+	  	 <h1>Artistas Recomendados</h1>
+	   </div>
+	    <div class="col-md-2 playlist">
+	      
+	           <a href="artista.html" class="hvr-bob">
+	              <img src="midia/img/byonce.jpg" class="img-responsive rad" alt="Foto" title="" >
+	           </a>
+	             <h1>Byoncé</h1>
+	        </div>
+
+	        <div class="col-md-2 playlist">
+	      
+	           <a href="artista.html" class="hvr-bob">
+	              <img src="midia/img/joao-vinicius.jpg" class="img-responsive rad" alt="Foto" title="" >
+	           </a>
+	             <h1>João Bosco e Vinicius</h1>
+	        </div>
+
+	        <div class="col-md-2 playlist">
+	      
+	           <a href="artista.html" class="hvr-bob">
+	              <img src="midia/img/padre-marcelo.jpg" class="img-responsive rad" alt="Foto" title="" >
+	           </a>
+	             <h1>Padre Marcelo Rossi</h1>
+	        </div>
+
+	        <div class="col-md-2 playlist">
+	      
+	           <a href="artista.html" class="hvr-bob">
+	              <img src="midia/img/gustavo-lima.jpg" class="img-responsive rad" alt="Foto" title="" >
+	           </a>
+	             <h1>Gustavo Lima</h1>
+	        </div>
+	      </div><!--ROW artistas recomendados -->
+	   </div><!-- Container -->
+	</div> <!-- "width-meio-box-->	
+<hr class="line">
+ <!-- Comunidade -->
+	<div class="width-meio-box">
+	  <div class="container">
+	    
+	    <div class="row">
+		   <div class="col-md-5">
+			   <div class="title-comunity">
+			  	 <h1>Faça parte da Comunidade</h1>
+			  	 <p>Envie letras, traduções, álbuns e fotos do seu artista preferido, além de criar e compartilhar playlists com seus amigos.</p>
+			   </div>
+			   <div class="home-buttom-comunity">
+			   	  <a href="#" class="hvr-fade">Começar</a> 		
+			   </div>
+
+	    	</div>
+
+		   		<div class="col-md-5 pull-right">
+		    		
+		    		<div class="col-md-5 membros">
+			    		
+			    		<img src="midia/img/colaboradora-comunity-1.jpg" alt="Membro" class="img-circle">
+			    	    <h4> Jessica Alves </h4>
+		    			<span>top colaborador</span>
+
+		    	    </div>
+
+		    		<div class="col-md-5 membros">
+			    		
+			    		<img src="midia/img/colaboradora-comunity-2.jpg" alt="Membro" class="img-circle">
+		    			<h4> Melissa Gomes </h4>
+		    			<span>top colaborador</span>
+		    	    </div>
+
+		    		<div class="col-md-5 membros">
+			    		
+			    		<img src="midia/img/colaborador-comunity-3.jpg" alt="Membro" class="img-circle">
+		    			<h4> Pedro Neves </h4>
+		    			<span>top colaborador</span>
+
+		    	    </div>
+
+		    		<div class="col-md-5 membros">
+			    		
+			    		<img src="midia/img/colaborador-comunity-4.jpg" alt="Membro" class="img-circle">
+		    			<h4> Lucas Augusto </h4>
+		    			<span>top colaborador</span>
+		    	    </div>
+
+
+		        </div> <!-- Col-md-5 Pull-Right-->
+		        	
+
+	    </div><!--Row Comunity-->
+	 
+	   </div><!-- Container -->
+	</div> <!-- "width-meio-box-->
+
+
+
+	<!-- - Modal/cadastro login --> 
+	<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+	  <div class="modal-dialog modal-lg">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h4 class="modal-title" id="myModalLabel"></h4>
+	        <div class="modal-body">
+	            
+	              <ul class="nav nav-tabs" role="tablist">
+	                  <li role="presentation"><a href="#login" aria-controls="profile" role="tab" data-toggle="tab">Meu Login</a></li>
+	              </ul>
+	            
+	               <div role="tabpanel" class="tab-pane" id="login">
+	                  <!-- Form para enviar login do usuário -->
+	                   <form name="login">
+	                     <div class="form-group">
+	                        <label for="nomeusuario">Login</label>
+	                           <input type="text" name="login" class="form-control" id="nomeUsuario" placeholder="Digite aqui" size="20">
+	                     </div>
+	                     <div class="form-group">
+	                         <label for="exampleInputPassword1">Senha</label>
+	                            <input type="password" name="senha" class="form-control" id="exampleInputPassword1" placeholder="Digite aqui">
+	                      </div>
+	                      <div class="form-group">
+	                     </form><br> 
+	                     <button type="button" class="btn btn-default" id="entrarLogin" >Entrar</button>
+	                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+	                </div>
+	         </div>
+	      </div>
+	        <div class="modal-footer">
+	        <h4>As melhores musica já tocadas!</h4>
+	        </div>
+	      
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+	<!-- Fale conosco  -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="exampleModalLabel">Fale conosco</h4>
+	        </div>
+	          <div class="modal-body">
+	            <form name="contato">
+	              <div class="form-group">
+	                <label for="recipient-name" class="control-label">E-mail</label>
+	                <input type="text" class="form-control" id="recipient-name"  name="emailMsg">
+	              </div>
+	              <div class="form-group">
+	                <label for="recipient-name" class="control-label">Seu nome</label>
+	                <input type="text" class="form-control" id="recipient-name"  name="nomeMsg">
+	              </div>
+	               <div class="form-group">
+	                  <label for="message-text" class="control-label" >Mensagem</label>
+	                  <textarea class="form-control" id="message-text" name="menssagem"></textarea>
+	               </div>
+	            </form>
+	          </div>
+	         <div class="modal-footer">
+	          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+	          <button type="button" class="btn btn-default" id="enviarMsg">Enviar</button>
+	         </div>
+	      </div>
+	   </div>
+	</div> 
+
+	
+<!--Footer -->
+
+	<div class="width-footer">
+		<div class="container">
+
+			   <header class="header-footer">
+					....	   	
+			   </header><!-- /header -->
+			 
+			   <div class="conteudo">
+					 <div id="tabela-footer">	
+						<table>
+							  <thead id="title-thead">
+								<tr>
+									<th>Bandas</th>
+									<th>Musicas</th>
+									<th>PlayList</th>
+									<th>Fonte</th>
+								</tr>
+							</thead>
+						   <tbody>
+								<tr>
+									<th><a href="#" class="hvr-underline-from-right">Nome</a></th>
+									<th><a href="#" class="hvr-underline-from-right">Nome</a></th>
+									<th><a href="#" class="hvr-underline-from-right">Nome</a></th>
+									<th><a href="#" class="hvr-underline-from-right">Nome</a></th>
+								</tr>
+								<tr>
+									<th><a href="#" class="hvr-underline-from-right">Nome</a></th>
+									<th><a href="#" class="hvr-underline-from-right">Nome</a></th>
+									<th><a href="#" class="hvr-underline-from-right">Nome</a></th>
+									<th><a href="#" class="hvr-underline-from-right">Nome</a></th>
+								</tr>
+								<th><a href="#" class="hvr-underline-from-right">Nome</a></th>
+								<th><a href="#" class="hvr-underline-from-right">Nome</a></th>
+								<th><a href="#" class="hvr-underline-from-right">Nome</a></th>
+								<th><a href="#" class="hvr-underline-from-right">Nome</a></th>
+							</tbody>
+						 </table>
+					</div>
+			   </div>
+			
+			<!-- Redes socials -->
+			<div class="col-md-4 pull-right">
+				<h2>Rede Sociais</h2>
+				<span><a href="https://www.facebook.com/" target="_blank" class="hvr-float-shadow"><img src="midia/img/face.jpg" alt="facebook" title="Facebook"></a></span>
+				<span><a href="https://twitter.com/?lang=pt-br" target="_blank" class="hvr-float-shadow"><img src="midia/img/twitterr.jpg" alt="Twitter" title="Twitter"></a></span>
+				<span><a href="https://www.instagram.com/?hl=pt-br" target="_blank" class="hvr-float-shadow"><img src="midia/img/instagram.jpg" alt="Instagram" title="Instagram"></a></span>
+				<span><a href="https://www.youtube.com/" target="_blank" class="hvr-float-shadow"><img src="midia/img/youtube.jpg" alt="Youtube" title="Youtube"></a></span>
+				<br><br>
+				<div id="volta-ao-inicio">
+					<a href="#voltar-inicio"  class="scroll hvr-underline-from-right">Voltar ao inicio</a>
+				</div>
+			</div>   
+			  
+		</div><!--Container-->
+	</div>	<!-- Width-footer-->
+
+	<footer class="copyright">
+		<h4> © Copyright 2014-2016 All Rights Reserved</h4>
+    </footer>
+
+     
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="midia/js/bootstrap.min.js"></script>	
+</body>
+</html>

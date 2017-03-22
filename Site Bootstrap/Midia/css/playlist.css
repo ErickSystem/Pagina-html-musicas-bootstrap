@@ -1,0 +1,21 @@
+.crumb{
+	font: 11px/1 Tahoma,sans-serif;
+    color: #CCC;
+    height: 36px;
+    text-transform: lowercase;
+    overflow: hidden;
+    position: relative;
+    margin-top: -14px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    opacity: 2;
+}
+.crumb a{
+	text-decoration: none;
+    padding: 10px 22px 10px 0;
+    text-transform: lowercase;
+    display: inline-block;
+    position: relative;
+    color: #CCC;
+    cursor: pointer;
+}

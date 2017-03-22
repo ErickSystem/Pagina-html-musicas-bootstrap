@@ -1,0 +1,581 @@
+*{
+	margin:0; 
+	padding:0;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+/*
+		ScrollBar
+*/
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px solid #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #eee;
+}
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px dotted #ffffff;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+#fix{
+	background: #123456;
+}
+
+#conteudo{
+	background: white;
+	margin-left: 6%;
+	margin-bottom: 40%;
+
+}
+
+#log a img{
+	width: 100%;
+
+}
+
+#logo {
+	width: 180px;
+	height: 50px;
+	margin-top: 3px;
+}
+/*
+h1{
+	margin-top: 10%;
+	margin-left: 6.8%;
+	color: ;
+	padding-bottom: 40px;
+	font-weight: bold;
+
+} */
+
+form{
+	display: block;
+	margin-top: 0em;
+}
+
+
+/*
+	Edição do buscador 
+*/
+.main-search{
+	position: absolute;
+	top: 9px;
+	left: 50%;
+	margin-left: -262px;
+}
+
+.main-search-input{
+
+    background: #FFF;
+    padding: 16px 8px;
+    height: 22px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+    width: 506px;
+    border-radius: 3px;
+    color: #444;
+    border: 1px solid #5bc0de;
+    background-clip: padding-box;
+}
+.main-search-submit{
+	position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 40px;
+    height: 32px;
+    border-radius: 0 3px 3px 0;
+    background: #D3D3D3;
+}
+
+/*
+	Menu Secundario
+*/
+
+.menu-secundario{
+	padding-bottom: 2%;
+	width: 40.2863%;
+	margin-left: -1%;
+}
+
+.menu-secundario ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.menu-secundario ul li{
+	float: left;
+	margin: 2.6%;
+}
+
+.main-menu{
+	list-style:none;
+	margin-left: 20%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.menu-secundario ul li { 
+	display: inline;
+}
+.menu-secundario ul li a{
+
+	padding: 0.12% 8.12%;
+	display: inline-block;
+	font-size: 1.2em;
+ 
+	/* visual do link */
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+.ativar{
+	background: #708090; 
+	color: #fff;
+	border-radius: 3px;
+    line-height: 32px;
+    height: 32px;
+}
+
+.menu-secundario ul li a:hover {
+	background-color: #708090;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 3px;
+    line-height: 32px;;
+    height: 32px;
+}
+
+/*
+	Carrossel de imagens
+*/
+.slider-noticias{
+	margin-left: 19.6%;
+	
+}
+
+/*
+	PlayList Recomendado
+*/
+
+.width-top-box{
+	margin-bottom: 100px; 
+}
+
+.width-meio-box{
+   margin: 50px 0;
+   padding: 20px; 0;
+}
+
+ .title-box h1{
+ 
+   text-transform: uppercase;
+   font-size: 2em;
+   color: #00;
+   font-weight: bold;
+   padding: 20px 0;
+   margin-left: 2.1%;
+
+}
+
+.rad{
+	border-radius: 4.5px;
+}
+
+
+.playlist .rad{
+	border-radius: 3.5px;
+}
+
+
+.playlist{
+
+	display: inline-block;
+	padding-bottom: 20px;
+	margin: 2%;
+}
+
+.playlist span{
+	text-transform: uppercase;
+	color: orange;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 5px 0;
+	display: inline-block;
+}
+
+.playlist h1{
+	padding-top: 20px;
+	color: #337ab7;
+  	font-weight: bold;
+ 	font-size: 20px;
+ 	margin: 0px;
+}
+
+.line{
+	height: 0;
+    border: 0;
+    border-bottom: 1px solid #EEE;
+    margin-bottom: 25px;
+}
+
+/*
+	Antes do Footer
+	Comunidade
+*/
+
+.title-comunity h1{
+   font-size: 4em;
+   color: #696969;
+   font-weight: bold;
+   padding: 20px 0;
+   margin-left: 2.1%;
+}
+.title-comunity p{
+	font-size: 1.50em;
+	color: #696969;
+	font-style: italic;
+
+}
+
+.home-buttom-comunity a{
+	display: block;
+    width: 390px;
+    text-align: center;
+    height: 56px;
+    font: bold 28px/56px sans-serif;
+    color: #FFF;
+    background: #8755BB;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+
+.membros{
+	margin-top: 10%;
+}
+#right-membro{
+    margin-right: 5%;
+}
+
+.membros h4{
+   font-size: 1em;
+   color: #337ab7;
+   font-weight: bold;
+   margin-left: -45%;
+   text-align: center;
+}
+
+.membros span{
+	text-transform: uppercase;
+	color: orange;
+	font-weight: bold;
+	font-size: 0.75em;
+	display: inline-block;
+	margin-left: -6%;
+}
+
+/*
+	Pagina com as letras
+*/	
+
+.letra{
+	font-size: 1.82em;
+	margin-top: 1.66%;
+	color: #696969;
+}
+
+.musica-cantor h1{
+	color: #337ab7;
+	font-weight: bold;
+	margin-left: 1.50%;
+	font-size: 2.2em;
+}
+.musica-cantor h2{
+	color: orange;
+	font-weight: bold;
+	margin-left: 1.50%;
+	font-size: 1em;
+}
+
+/*
+	página album
+*/
+
+.cantor{
+	margin-bottom: 5%;
+	margin-top: 2%;
+}
+.cantor h4{
+	margin-top: 10%;
+}
+
+.ouvir-cantor{
+	color: #FFF;
+    border-radius: 3px;
+    border: 1px solid;
+    cursor: pointer;
+    padding: 20px 0px;
+    font-size: 0.90em;
+    position: relative;
+    margin-top: 1%;
+}
+
+.ouvir-cantor a{
+	color: white;
+	background:#5EB70B;
+	border-radius: 3px; 
+	padding: 10px 20px;
+}
+.ouvir-canto a span{
+	color: black;
+}
+.ouvir-cantor a{
+	text-decoration: none;
+}
+.ouvir-cantor a:hover{
+	background:#008000	;
+	color: white;
+}
+
+.cantor h4{
+	color: #337ab7;
+	font-weight: bold;
+	margin-right: 1%;
+	font-size: 2em;
+}
+
+.album-cantor h2{
+	color: #337ab7;
+	font-weight: bold;
+	margin-right: 1%;
+	font-size: 2em;
+}
+.album-cantor span{
+	color:#808080;
+	margin-right: 1%;
+	font-size: 1em;
+	opacity: 0.6;
+}
+
+
+.ouvir{
+    color: #FFF;
+    border-radius: 3px;
+    border: 1px solid;
+    cursor: pointer;
+    padding: 20px 0px;
+    font-size: 2em;
+    position: relative;
+    margin-top: 1%;
+
+}
+.ouvir a{
+	color: white;
+	background:#5EB70B;
+	border-radius: 3px; 
+	padding: 10px 20px;
+}
+.ouvir a span{
+	color: black;
+}
+.ouvir a{
+	text-decoration: none;
+}
+.ouvir a:hover{
+	background:#008000	;
+	color: white;
+}
+
+.album-cantor-musicas{
+	margin-top: 5%;
+}
+
+.back-main ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.back-main{
+	list-style:none;
+	margin-left: 20%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.back-main ul li{
+	display: block;
+}
+.back-main ul li{
+	
+	padding: 3% 9.12%;
+	display: block;
+	font-size: 1.2em;
+ 
+	/* visual do link */
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.back-main  nav ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.back-main ul li a{
+	padding: 8px 10px;
+    color: #337ab7;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.back-main ul li a:hover{
+	background-color:#696969;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 3px;
+	width: 100%;
+}
+
+/*
+	página artistas
+*/	
+
+.lineArtista{
+    height: 0;
+    border: 0;
+    border-bottom: 3px solid #EEE;
+    margin-bottom: 25px;
+}
+.mais-tocadas h2{
+	color: #696969;
+	font-weight: bold;
+	margin-right: 1%;
+	font-size: 2em;
+}
+
+.mais-tocadas-musicas{
+	margin-top: 0;
+	margin-left: 0;
+}
+
+/*
+	Footer
+*/	
+
+.width-footer{
+	margin-top: 2%;
+	float: left;
+	margin-right: 1.5625%;
+	padding: 1.5625%;
+	width: 100%;
+	background: #123456;
+}
+
+.header-footer{
+
+}
+
+.conteudo{
+	margin-left: 2%;
+	float: left;
+}
+
+.width-footer h2{
+	font-size: 1.20em;
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+	
+}
+
+
+#tabela-footer{
+	margin: 1.5625%;
+	width: 100%;
+	float: left;
+}
+
+#tabela-footer table{
+	border-collapse: collapse;
+    width: 600px;
+    margin: 0 auto;
+}
+			
+#tabela-footer tr td, tr th	{
+	
+	color: white;
+	padding: 5px;
+}
+
+#tabela-footer tbody a:hover{
+	color: #00BFFF;
+}
+
+#tabela-footer tbody a:focus{
+	color: #fff;
+}
+
+#title-thead tr,th{
+	font-size: 1.15em;
+	color: white;
+}
+
+
+.copyright{
+	width: 100%;
+	background-color: #000;
+	float: left;
+}
+.copyright h4{
+	color: white;
+	text-align: center;
+	opacity: 0.5;
+	font-size: 0.75em;
+}
+
+#voltar-ao-inicio a:hover{
+	color: #00BFFF;
+}
+
+#volta-ao-inicio a:hover{
+	color: #00BFFF;
+}
+
+#volta-ao-inicio a:focus{
+	color: #fff;
+}
+
