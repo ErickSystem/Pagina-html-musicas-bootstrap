@@ -189,6 +189,11 @@ form{
 	PlayList Recomendado
 */
 
+.playlist a img{
+	width: 272px;
+	height: 156px;
+}
+
 .width-top-box{
 	margin-bottom: 100px; 
 }
@@ -233,6 +238,7 @@ form{
 	font-size: 12px;
 	padding: 5px 0;
 	display: inline-block;
+	font-style: italic;
 }
 
 .playlist h1{
